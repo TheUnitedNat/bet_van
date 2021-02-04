@@ -60,5 +60,10 @@
   BHM_helping_ger:0 "Helping Germany"
   BHM_investitions_from_ger:0 "Investitions from Third Reich"
   BHM_forced_labor:0 "Forced Labor"
-  #Cosmetic Tags
-  POL_reichskommissariat:0 "Generalgouvernement"
+  #Generalgouvernement
+  GEG:0 "Generalgouvernement"
+  GEG_DEF:0 "Generalgouvernement"
+  GEG_ADJ:0 "Generalgouvernement"
+  GEG_fascism:0 "Generalgouvernement"
+  GEG_fascism_DEF:0 "Generalgouvernement"
+  GEG_fascism_ADJ:0 "Generalgouvernement"

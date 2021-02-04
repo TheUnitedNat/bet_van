@@ -220,14 +220,14 @@ GER_mefo_bills_category = {
 			factor = 200
 		}
 	}
-	
+
 	GER_cancel_mefos = {
 
 		icon = ger_mefo_bills
 
 		available = {
-			hidden_trigger = { 
-				NOT = { has_country_flag = ger_has_cancelled_mefo } 
+			hidden_trigger = {
+				NOT = { has_country_flag = ger_has_cancelled_mefo }
 				NOT = {
 					OR = {
 						NOT = { GER_has_mefo_bills = yes }
@@ -242,8 +242,8 @@ GER_mefo_bills_category = {
 		fire_only_once = no
 
 		visible = {
-			hidden_trigger = { 
-				NOT = { has_country_flag = ger_has_cancelled_mefo } 
+			hidden_trigger = {
+				NOT = { has_country_flag = ger_has_cancelled_mefo }
 				NOT = {
 					OR = {
 						NOT = { GER_has_mefo_bills = yes }
@@ -263,13 +263,13 @@ GER_mefo_bills_category = {
 			factor = 0
 		}
 	}
-	
+
 	GER_renew_mefos = {
 
 		icon = ger_mefo_bills
 
 		available = {
-			hidden_trigger = { 
+			hidden_trigger = {
 				has_country_flag = ger_has_cancelled_mefo
 				NOT = {
 					OR = {
@@ -285,7 +285,7 @@ GER_mefo_bills_category = {
 		fire_only_once = no
 
 		visible = {
-			hidden_trigger = { 
+			hidden_trigger = {
 				has_country_flag = ger_has_cancelled_mefo
 				NOT = {
 					OR = {
@@ -341,7 +341,7 @@ operations = {
 		}
 
 		timeout_effect = {
-			
+
 		}
 
 		ai_will_do = {
@@ -500,50 +500,28 @@ GER_reichskommissariats = {
 		complete_effect = {
 			if = {
 				limit = {
-					country_exists = POL
-					NOT = { POL = { has_government = fascism } }
+					country_exists = GEG
+					NOT = { GEG = { has_government = fascism } }
 				}
 				hidden_effect = {
-					POL = {
+					GEG = {
 						set_state_controller = 10
 						set_state_controller = 88
 						set_state_controller = 90
 						set_state_controller = 92
 					}
-				}
-				POL = {
-					start_civil_war = { 
-						ideology = fascism 
-						size = 1 
-					
-						transfer_state = 10
-						transfer_state = 88
-						transfer_state = 90
-						transfer_state = 92
-						GER = {
-							puppet = PREV
-							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
-						}
-						set_cosmetic_tag = POL_reichskommissariat
-						create_country_leader = {
-							name = "Hans Frank"
-							desc = "POLITICS_JOSEF_TERBOVEN_DESC"
-							picture = "gfx/leaders/Europe/Portrait_Europe_Generic_5.dds"
-							expire = "1965.1.1"
-							ideology = nazism
-							traits = {
-							}
-						}
-					}
+					10 = { add_core_of = GER }
+					88 = { add_core_of = GER }
+					90 = { add_core_of = GER }
+					92 = { add_core_of = GER }
 				}
 			}
 			else = {
-				POL = {
+				GEG = {
 					transfer_state = 10
 					transfer_state = 88
 					transfer_state = 90
 					transfer_state = 92
-					set_cosmetic_tag = POL_reichskommissariat
 					create_country_leader = {
 						name = "Hans Frank"
 						desc = "POLITICS_JOSEF_TERBOVEN_DESC"
@@ -554,7 +532,7 @@ GER_reichskommissariats = {
 						}
 					}
 				}
-				set_autonomy = { target = POL autonomy_state = autonomy_integrated_puppet }
+				set_autonomy = { target = GEG autonomy_state = autonomy_integrated_puppet }
 			}
 		}
 	}
@@ -600,10 +578,10 @@ GER_reichskommissariats = {
 					}
 				}
 				NOR = {
-					start_civil_war = { 
-						ideology = fascism 
-						size = 1 
-					
+					start_civil_war = {
+						ideology = fascism
+						size = 1
+
 						transfer_state = 110
 						transfer_state = 142
 						transfer_state = 143
@@ -702,7 +680,7 @@ GER_reichskommissariats = {
 						puppet = PREV
 						set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
 					}
-					
+
 					set_cosmetic_tag = HOL_reichskommissariat
 					create_country_leader = {
 						name = "Arthur Seyss-Inquart"
@@ -898,7 +876,7 @@ GER_reichskommissariats = {
 						set_autonomy = { target = PREV autonomy_state = autonomy_reichskommissariat }
 					}
 				}
-				
+
 				set_cosmetic_tag = BLR_reichskommissariat
 				create_country_leader = {
 					name = "Hinrich Lohse"
@@ -1035,7 +1013,7 @@ political_actions = {
 		}
 
 		available = {
-			
+
 		}
 
 		cost = 100
@@ -1061,7 +1039,7 @@ political_actions = {
 			}
 		}
 	}
-	
+
 	# Agnatic-Cognatic Primogeniture
 	modernize_the_succession_laws = {
 
@@ -1070,7 +1048,7 @@ political_actions = {
 		}
 
 		available = {
-			
+
 		}
 
 		cost = 150
@@ -1140,7 +1118,7 @@ political_actions = {
 		}
 
 		available = {
-			
+
 		}
 
 		cost = 50
@@ -1163,7 +1141,7 @@ political_actions = {
 }
 
 foreign_politics = {
-	
+
 	# Titles Deprivation Act 1917
 	request_restoration_of_british_titles = {
 
@@ -1275,7 +1253,7 @@ GER_military_buildup = {
 			has_completed_focus = GER_plan_z
 		}
 
-		
+
 		visible = {
 			has_completed_focus = GER_plan_z
 		}
@@ -1285,7 +1263,7 @@ GER_military_buildup = {
 			navy_experience = 150
 		}
 
-		
+
 	}
 
 	GER_jaegernotprogramm = {
@@ -1340,8 +1318,8 @@ GER_military_buildup = {
 
 special_projects = {
 	GER_begin_heavy_water_production = {
-		allowed = { 
-			original_tag = GER 
+		allowed = {
+			original_tag = GER
 			has_dlc = "La Resistance"
 		}
 		available = {
@@ -1357,7 +1335,7 @@ special_projects = {
 		visible = { has_tech = atomic_research }
 		cost = 0
 		ai_will_do = {
-			factor = 5 
+			factor = 5
 		}
 		cancel_trigger = { NOT = { has_global_flag = GER_heavy_water_production_underway } } #can be removed via intelligence ops
 		days_remove = 365
@@ -1463,7 +1441,7 @@ special_projects = {
 				}
 			}
 		}
-	}	
+	}
 	GER_dismantle_czechoslovakian_forts = {
 
 		icon = generic_construction
@@ -1649,7 +1627,7 @@ special_projects = {
 		complete_effect = {
 			add_timed_idea = { idea = GER_dismantle_czechoslovakian_forts days = 180 }
 		}
-	}	
+	}
 }
 
 GER_aid_hun_rom_democratic_civil_war = {
@@ -1800,8 +1778,8 @@ GER_austro_hungarian_empire = {
 		}
 
 		visible = {
-			GER = { 
-				has_completed_focus = GER_rekindle_imperial_sentiment 
+			GER = {
+				has_completed_focus = GER_rekindle_imperial_sentiment
 				has_government = neutrality
 			}
 			AUS = {
