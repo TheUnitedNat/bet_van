@@ -1,0 +1,33 @@
+﻿###########################
+# Finnish Democratic Republic Events
+###########################
+
+add_namespace = finnish_dem_repubic
+
+# Change Capital
+country_event = {
+	id = finnish_dem_repubic.1
+	title = finnish_dem_repubic.1.t
+	desc = finnish_dem_repubic.1.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	trigger = {
+		owns_state = 111
+	}
+	fire_only_once = yes
+	option = { # Change
+		name = finnish_dem_repubic.1.a
+		set_capital = 111
+		add_stability = 0.05
+		ai_chance = { 
+			factor = 100
+		}
+	}
+	option = { # Leave it as it
+		name = finnish_dem_repubic.1.b
+		add_stability = 0.05
+		ai_chance = { 
+			factor = 0 
+		}
+	}
+}

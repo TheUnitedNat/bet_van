@@ -1,0 +1,266 @@
+SOV_core_POL = {
+  SOV_core_polish_lands_89 = {
+
+		icon = generic_civil_support
+    highlight_state_targets = { state = 89 }
+		days_remove = 30
+    cost = 25
+		fire_only_once = yes
+
+		is_good = yes
+    modifier = {
+			political_power_factor = -0.05
+		}
+		remove_effect = {
+			89 = { add_core_of = SOV }
+		}
+	}
+  SOV_core_polish_lands_91 = {
+
+		icon = generic_civil_support
+    highlight_state_targets = { state = 91 }
+		days_remove = 30
+    cost = 25
+		fire_only_once = yes
+
+		is_good = yes
+    modifier = {
+			political_power_factor = -0.05
+		}
+		remove_effect = {
+			91 = { add_core_of = SOV }
+		}
+	}
+  SOV_core_polish_lands_93 = {
+
+		icon = generic_civil_support
+    highlight_state_targets = { state = 93 }
+		days_remove = 30
+    cost = 25
+		fire_only_once = yes
+
+		is_good = yes
+    modifier = {
+			political_power_factor = -0.05
+		}
+		remove_effect = {
+			93 = { add_core_of = SOV }
+		}
+	}
+  SOV_core_polish_lands_94 = {
+
+		icon = generic_civil_support
+    highlight_state_targets = { state = 94 }
+		days_remove = 30
+    cost = 25
+		fire_only_once = yes
+
+		is_good = yes
+    modifier = {
+			political_power_factor = -0.05
+		}
+		remove_effect = {
+			94 = { add_core_of = SOV }
+		}
+	}
+  SOV_core_polish_lands_95 = {
+
+		icon = generic_civil_support
+    highlight_state_targets = { state = 95 }
+		days_remove = 30
+    cost = 25
+		fire_only_once = yes
+
+		is_good = yes
+    modifier = {
+			political_power_factor = -0.05
+		}
+		remove_effect = {
+			95 = { add_core_of = SOV }
+		}
+	}
+  SOV_core_polish_lands_96 = {
+
+		icon = generic_civil_support
+    highlight_state_targets = { state = 96 }
+		days_remove = 30
+    cost = 25
+		fire_only_once = yes
+
+		is_good = yes
+    modifier = {
+			political_power_factor = -0.05
+		}
+		remove_effect = {
+			96 = { add_core_of = SOV }
+		}
+	}
+}
+SOV_core_baltics = {
+  SOV_core_baltics_estonia = {
+
+		icon = generic_civil_support
+    highlight_state_targets = { state = 13 }
+		days_remove = 60
+    cost = 50
+		fire_only_once = yes
+
+		is_good = yes
+    modifier = {
+			political_power_factor = -0.25
+		}
+		remove_effect = {
+			13 = { add_core_of = SOV }
+      191 = { add_core_of = SOV }
+		}
+	}
+  SOV_core_baltics_latvia = {
+
+		icon = generic_civil_support
+    highlight_state_targets = { state = 12 }
+		days_remove = 60
+    cost = 50
+		fire_only_once = yes
+
+		is_good = yes
+    modifier = {
+			political_power_factor = -0.25
+		}
+		remove_effect = {
+			12 = { add_core_of = SOV }
+      190 = { add_core_of = SOV }
+		}
+	}
+  SOV_core_baltics_lithuania = {
+
+		icon = generic_civil_support
+    highlight_state_targets = { state = 11 }
+		days_remove = 60
+    cost = 50
+		fire_only_once = yes
+
+		is_good = yes
+    modifier = {
+			political_power_factor = -0.25
+		}
+		remove_effect = {
+			11 = { add_core_of = SOV }
+      188 = { add_core_of = SOV }
+      189 = { add_core_of = SOV }
+      784 = { add_core_of = SOV }
+		}
+	}
+}
+SOV_core_bessarabia = {
+  SOV_core_buckovina = {
+
+		icon = generic_civil_support
+    highlight_state_targets = { state = 80 }
+		days_remove = 30
+    cost = 25
+		fire_only_once = yes
+
+		is_good = yes
+    modifier = {
+			political_power_factor = -0.1
+		}
+		remove_effect = {
+			80 = { add_core_of = SOV }
+		}
+	}
+  SOV_core_south_bessarabia = {
+
+		icon = generic_civil_support
+    highlight_state_targets = { state = 766 }
+		days_remove = 30
+    cost = 25
+		fire_only_once = yes
+
+		is_good = yes
+    modifier = {
+			political_power_factor = -0.1
+		}
+		remove_effect = {
+			766 = { add_core_of = SOV }
+		}
+	}
+  SOV_core_moldavia = {
+
+		icon = generic_civil_support
+    highlight_state_targets = { state = 78 }
+		days_remove = 30
+    cost = 25
+		fire_only_once = yes
+
+		is_good = yes
+    modifier = {
+			political_power_factor = -0.1
+		}
+		remove_effect = {
+			78 = { add_core_of = SOV }
+		}
+	}
+}
+SOV_rename_cities = {
+	SOV_rename_stanislavow = {
+	icon = GFX_decision_eng_trade_unions_support
+    highlight_state_targets = { state = 89 }
+    cost = 10
+	fire_only_once = yes
+    visible = { owns_state = 89 }
+	is_good = yes
+		complete_effect = {
+		  set_province_name = { id = 11411 name = "Ivano-Frankovsk" }
+				hidden_effect = {
+					89 = { set_state_name = "Ivano-Frankovsk" }
+				}
+		}
+	}
+	SOV_rename_rovne = {
+		icon = GFX_decision_eng_trade_unions_support
+		highlight_state_targets = { state = 93 }
+		cost = 10
+			fire_only_once = yes
+			visible = { owns_state = 93 }
+			is_good = yes
+			complete_effect = {
+				set_province_name = { id = 6557 name = "Rovno" }
+					hidden_effect = {
+						93 = { set_state_name = "Rovno" }
+					}
+			}
+	}
+	SOV_rename_brest = {
+		icon = GFX_decision_eng_trade_unions_support
+		highlight_state_targets = { state = 94 }
+		cost = 10
+		fire_only_once = yes
+		visible = { owns_state = 94 }
+		is_good = yes
+			complete_effect = {
+				set_province_name = { id = 3392 name = "Brest" }
+			}
+	}
+	SOV_rename_kishinev = {
+		icon = GFX_decision_eng_trade_unions_support
+		highlight_state_targets = { state = 78 }
+		cost = 10
+		fire_only_once = yes
+		visible = { owns_state = 78 }
+		is_good = yes
+			complete_effect = {
+				set_province_name = { id = 3707 name = "Kishinev" }
+			}
+	}
+	SOV_rename_izmail = {
+		icon = GFX_decision_eng_trade_unions_support
+		highlight_state_targets = { state = 766 }
+		cost = 10
+		fire_only_once = yes
+		visible = { owns_state = 766 }
+		is_good = yes
+			complete_effect = {
+				set_province_name = { id = 6727 name = "Izmail" }
+			}
+	}
+}

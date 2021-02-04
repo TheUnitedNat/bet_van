@@ -1,0 +1,62 @@
+﻿l_english:
+  #Region Localiation
+  STATE_807:0 "Suwałki"
+  STATE_808:0 "Southern Sudetenland"
+  #Core Poland
+  SOV_core_POL:0 "Nationalize Polish Lands"
+  SOV_core_polish_lands_89:0 "Core Stanisławów"
+  SOV_core_polish_lands_91:0 "Core Lwów"
+  SOV_core_polish_lands_93:0 "Core Wołyn"
+  SOV_core_polish_lands_94:0 "Core Polesie"
+  SOV_core_polish_lands_95:0 "Core Nowogródek"
+  SOV_core_polish_lands_96:0 "Core Wilejka"
+  #Core Baltics
+  SOV_core_baltics:0 "Nationalize Baltic States"
+  SOV_core_baltics_estonia:0 "Core Estonia"
+  SOV_core_baltics_latvia:0 "Core Latvia"
+  SOV_core_baltics_lithuania:0 "Core Lithuania"
+  #Core Bessarabia
+  SOV_core_bessarabia:0 "Nationalize Bessarabia"
+  SOV_core_buckovina:0 "Core Bucovina"
+  SOV_core_south_bessarabia:0 "Core South Bessarabia"
+  SOV_core_moldavia:0 "Core Bessarabia"
+  #Rename Cities
+  SOV_rename_cities:0 "Rename Cities"
+  SOV_rename_cities_desc:0 "We shall remove capitalist names of the cities and bring back Russian names"
+  SOV_rename_stanislavow:0 "Give Stanisławów a new name"
+  SOV_rename_rovne:0 "Rusify Rovne"
+  SOV_rename_brest:0 "Simplify Brest-Litowsk name"
+  SOV_rename_kishinev:0 "Return Kishenev it's name"
+  SOV_rename_izmail:0 "Return Russian name of Izmail"
+  #Focus Effects
+  SOV_claims_on_poland_tt:0 "Will be able to core West §GUkraine§! and §GBelorussia§!"
+  SOV_baltic_security_tt:0 "Will be able to core Baltic Countries: §GEstonia, Latvia§! and §GLithuania§!"
+  SOV_claim_bessarabia_tt:0 "Will be able to core such Romanian regions as: §GBessarabia, South Bessarabia§! and §GBucovina§!"
+  #Country Localiation
+  #Finnish Democratic Republic
+  FDR:0 "Finnish Democratic Republic"
+  FDR_DEF:0 "Finnish Democratic Republic"
+  FDR_ADJ:0 "Finnish Democratic Republic"
+  FDR_communism:0 "Finnish Democratic Republic"
+  FDR_communism_DEF:0 "Finnish Democratic Republic"
+  FDR_communism_ADJ:0 "Finnish Democratic Republic"
+  mauritz_rosenberg:0 "Mauritz Rosenberg"
+  akseli_anttila:0 "Akseli Anttila"
+  #Böhmen-Mähren
+  BHM:0 "Reichsprotektorat Böhmen-Mähren"
+  BHM_DEF:0 "Reichsprotektorat Böhmen-Mähren"
+  BHM_ADJ:0 "Reichsprotektorat Böhmen-Mähren"
+  BHM_fascism:0 "Reichsprotektorat Böhmen-Mähren"
+  BHM_fascism_DEF:0 "Reichsprotektorat Böhmen-Mähren"
+  BHM_fascism_ADJ:0 "Reichsprotektorat Böhmen-Mähren"
+  #Events
+  finland.8.c:0 "Establish Finnish Democratic Republic!"
+  soviet_finnish_puppet_tt:0 "Creates §GPuppet§!, which has all cores on Finnish lands"
+  finnish_dem_repubic.1.t:0 "Changing the capital?"
+  finnish_dem_repubic.1.d:0 "After Capturing Helsinki, there is a question our capital to Helsinki as a historical Finnish capital"
+  finnish_dem_repubic.1.a:0 "Change!"
+  finnish_dem_repubic.1.b:0 "Leave as it was"
+  #Ideas
+  BHM_helping_ger:0 "Helping Germany"
+  BHM_investitions_from_ger:0 "Investitions from Third Reich"
+  BHM_forced_labor:0 "Forced Labor"

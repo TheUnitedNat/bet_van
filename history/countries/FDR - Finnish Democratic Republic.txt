@@ -1,0 +1,59 @@
+﻿capital = 146
+set_research_slots = 3
+set_stability = 75
+set_war_support = 75
+#Starting tech
+set_technology = {
+}
+
+#For start date 1939.1.1
+1939.1.1 = {
+	add_political_power = 500
+
+	#complete_national_focus = YOUR_FOCUS_ID
+	#complete_national_focus = YOUR_FOCUS_ID
+
+	set_technology = {
+	}
+	#set_convoys = 100
+}
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = communism
+	last_election = "1935.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 10
+	fascism = 10
+	communism = 70
+	neutrality = 10
+}
+
+#Politics for 1939.1.1
+1939.1.1 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1936.2.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 10
+		fascism = 10
+		communism = 70
+		neutrality = 10
+	}
+}
+
+#Create country leader - Otto Wille Kuusinen
+create_country_leader = {
+	name = "Otto Wille Kuusinen"
+	#Custom image for Otto Wille Kuusinen
+	picture = "otto_wille_kuusinen-75788.dds"
+	expire = "1965.1.1"
+	ideology = anti_revisionism
+	traits = { }
+}

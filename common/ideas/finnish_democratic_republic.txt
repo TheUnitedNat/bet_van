@@ -1,0 +1,46 @@
+ideas = {
+	political_advisor = {
+		mauritz_rosenberg = {
+			allowed = {
+				original_tag = FDR
+			}
+			traits = {financial_expert}
+			picture = /media/get//hoi4/ideas/people/idea_rudolf_hess
+		}
+	}
+
+	#Military
+	army_chief = {
+	}
+	navy_chief = {
+	}
+	air_chief = {
+	}
+	high_command = {
+		mauritz_rosenberg = {
+			allowed = {
+				original_tag = FDR
+			}
+			traits = {financial_expert}
+			picture = /media/get//hoi4/ideas/people/idea_fra_pierre_pucheu
+		}
+		akseli_anttila = {
+			allowed = {
+				original_tag = FDR
+			}
+			traits = {cornered_fox}
+			picture = /media/get//hoi4/ideas/people/idea_carlo_bergamini
+		}
+	}
+	#Manufacturers
+	tank_manufacturer = {
+	}
+	naval_manufacturer = {
+	}
+	aircraft_manufacturer = {
+	}
+	materiel_manufacturer = {
+	}
+	theorist = {
+	}
+}

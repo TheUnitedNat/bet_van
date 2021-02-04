@@ -1,0 +1,63 @@
+################
+#### SOVIET ####
+################
+
+SOV_industry_relocation = {
+
+	allowed = {
+		original_tag = SOV
+	}
+
+	available = {
+		has_completed_focus = SOV_move_industry_to_urals
+	}
+
+	visible = {
+		has_war = yes
+	}
+}
+
+SOV_great_patriotic_war = {
+	allowed = {
+		original_tag = SOV
+	}
+	visible = {
+		has_war = yes
+	}
+
+}
+SOV_core_POL = {
+	allowed = {
+		original_tag = SOV
+		has_completed_focus = SOV_claims_on_poland
+	}
+	visible = {
+		has_completed_focus = SOV_claims_on_poland
+	}
+}
+SOV_core_baltics = {
+	allowed = {
+		original_tag = SOV
+		has_completed_focus = SOV_baltic_security
+	}
+	visible = {
+		has_completed_focus = SOV_baltic_security
+	}
+}
+SOV_core_bessarabia = {
+	allowed = {
+		original_tag = SOV
+		has_completed_focus = SOV_claim_bessarabia
+	}
+	visible = {
+		has_completed_focus = SOV_claim_bessarabia
+	}
+}
+SOV_rename_cities = {
+	allowed = {
+		original_tag = SOV
+	}
+	visible = {
+	
+	}
+}
