@@ -2,6 +2,7 @@
   #Region Localiation
   STATE_807:0 "Suwałki"
   STATE_808:0 "Southern Sudetenland"
+  STATE_809:0 "Burgenland"
   #Core Poland
   SOV_core_POL:0 "Nationalize Polish Lands"
   SOV_core_polish_lands_89:0 "Core Stanisławów"
