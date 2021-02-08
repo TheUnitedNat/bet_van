@@ -4427,6 +4427,7 @@ country_event = {
 	option = {
 		name = germany.94.a
 		GER = { transfer_state = 102 }
+		HUN = { transfer_state = 812 }
 		set_country_flag = slovenia_acquired
 		hidden_effect = {
 			news_event = { id = news.163 hours = 6 }

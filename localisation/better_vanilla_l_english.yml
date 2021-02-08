@@ -5,8 +5,12 @@
   STATE_809:0 "Burgenland"
   STATE_810:0 "Syrmia"
   STATE_811:0 "Rijeka"
+  STATE_812:0 "Prekmurje"
   #Victory Points
   VICTORY_POINTS_3601:0 "Karlovac"
+  VICTORY_POINTS_6672:0 "Murska Sobota"
+  VICTORY_POINTS_6666:0 "Geneva"
+  VICTORY_POINTS_661:0 "Chur"
   #Core Poland
   SOV_core_POL:0 "Nationalize Polish Lands"
   SOV_core_polish_lands_89:0 "Core Stanisławów"

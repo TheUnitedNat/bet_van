@@ -1,7 +1,7 @@
 state={
-	id=810
-	name="STATE_810"
-	manpower = 414234
+	id=811
+	name="STATE_811"
+	manpower = 114238
 	resources={
 	}
 
@@ -10,14 +10,16 @@ state={
 	history={
 		owner = YUG
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
+		}
+		victory_points = {
+			6672 1
 		}
 		add_core_of = YUG
-		add_core_of = CRO
-		add_core_of = SER
+		add_core_of = SLV
 	}
 
 	provinces={
-		11577 11580
+		6672
 	}
 }

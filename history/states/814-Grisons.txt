@@ -1,0 +1,25 @@
+state={
+	id=814
+	name="STATE_814"
+	manpower = 199021
+	resources={
+	}
+
+	state_category = large_city
+
+	history={
+		owner = SWI
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+		}
+		victory_points = {
+			661 3
+		}
+		add_core_of = SWI
+	}
+
+	provinces={
+		658 661 3641 3660 3662
+	}
+}
