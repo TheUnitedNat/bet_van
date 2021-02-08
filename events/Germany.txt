@@ -4549,6 +4549,8 @@ country_event = {
 					owns_state = 103
 					owns_state = 104
 					owns_state = 109
+					owns_state = 810
+					owns_state = 811
 				}
 			}
 		}
@@ -4570,6 +4572,14 @@ country_event = {
 				if = {
 					limit = { YUG = { owns_state = 109 } }
 					transfer_state = 109
+				}
+				if = {
+					limit = { YUG = { owns_state = 810 } }
+					transfer_state = 810
+				}
+				if = {
+					limit = { YUG = { owns_state = 811 } }
+					transfer_state = 811
 				}
 			}
 			puppet = CRO
@@ -4602,6 +4612,14 @@ country_event = {
 				if = {
 					limit = { YUG = { owns_state = 109 } }
 					transfer_state = 109
+				}
+				if = {
+					limit = { YUG = { owns_state = 810 } }
+					transfer_state = 811
+				}
+				if = {
+					limit = { YUG = { owns_state = 810 } }
+					transfer_state = 811
 				}
 			}
 			puppet = CRO
