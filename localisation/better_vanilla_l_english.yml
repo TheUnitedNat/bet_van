@@ -6,6 +6,9 @@
   STATE_810:0 "Syrmia"
   STATE_811:0 "Rijeka"
   STATE_812:0 "Prekmurje"
+  STATE_813:0 "Geneva"
+  STATE_814:0 "Grisons"
+  STATE_815:0 "Trencin"
   #Victory Points
   VICTORY_POINTS_3601:0 "Karlovac"
   VICTORY_POINTS_6672:0 "Murska Sobota"
