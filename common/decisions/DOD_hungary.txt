@@ -79,15 +79,15 @@ political_actions = {
 		complete_effect = {
 			if = {
 				limit = {
-					check_variable = { var_name > 4500 }
-					check_variable = { var_name < 6000 }
+					check_variable = { var_name >= 4500 }
+					check_variable = { var_name <= 6000 }
 				}
 				YUG = { release = CRO }
 				YUG = { transfer_state = 810 }
 			}
 			if = {
 				limit = {
-					check_variable = { var_name > 6000 }
+					check_variable = { var_name >= 6500 }
 				}
 				YUG = { release = DLM }
 				YUG = { release = CRO }
