@@ -15,6 +15,9 @@
   VICTORY_POINTS_6666:0 "Geneva"
   VICTORY_POINTS_661:0 "Chur"
   VICTORY_POINTS_9551:0 "Trenčín"
+  #Hungary Croatia Rebel
+  HUN_cro_rebel:0 "Supporting Croatian Rebel"
+  HUN_cro_rebel_desc:0 "§R[?HUN.HUN_total_equpment_help]§!"
   #Core Poland
   SOV_core_POL:0 "Nationalize Polish Lands"
   SOV_core_polish_lands_89:0 "Core Stanisławów"
