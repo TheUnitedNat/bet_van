@@ -2240,6 +2240,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.05
 			set_global_flag = HUN_cro_rebel_prepare
+			set_variable = { HUN_total_equpment_help = 0 }
 		}
 	}
 	focus = {

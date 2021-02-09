@@ -56,7 +56,6 @@ political_actions = {
 				producer = HUN
 			}
 			hidden_effect = {
-				set_variable = { HUN_total_equpment_help = 0 }
 				HUN = {
 					add_to_variable = { HUN_total_equpment_help = 1500  }
 				}
