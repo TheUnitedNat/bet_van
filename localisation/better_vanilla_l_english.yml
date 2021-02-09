@@ -65,6 +65,13 @@
   BHM_fascism:0 "Reichsprotektorat Böhmen-Mähren"
   BHM_fascism_DEF:0 "Reichsprotektorat Böhmen-Mähren"
   BHM_fascism_ADJ:0 "Reichsprotektorat Böhmen-Mähren"
+  #Dalmatia
+  DLM:0 "Dalmatia"
+  DLM_DEF:0 "Dalmatia"
+  DLM_ADJ:0 "Dalmatia"
+  DLM_fascism:0 "Dalmatia"
+  DLM_fascism_DEF:0 "Dalmatia"
+  DLM_fascism_ADJ:0 "Dalmatia"
   #Events
   finland.8.c:0 "Establish Finnish Democratic Republic!"
   soviet_finnish_puppet_tt:0 "Creates §GPuppet§!, which has all cores on Finnish lands"

@@ -68,7 +68,7 @@ political_actions = {
 			original_tag = HUN
 		}
 		available = {
-			HUN_total_equpment_help > 4500
+			HUN = { HUN_total_equpment_help > 4500 }
 		}
 		visible = {
 			has_global_flag = HUN_cro_rebel_prepare
@@ -84,13 +84,16 @@ political_actions = {
 					HUN_total_equpment_help < 6000
 				}
 				YUG = { release = CRO }
+				YUG = { transfer_state = 810 }
 			}
 			if = {
 				limit = {
 					HUN_total_equpment_help > 6000
 				}
+				YUG = { release = DLM }
 				YUG = { release = CRO }
 				YUG = { release = SLV }
+				YUG = { transfer_state = 810 }
 			}
 		}
 	}
