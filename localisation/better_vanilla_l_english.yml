@@ -17,7 +17,11 @@
   VICTORY_POINTS_9551:0 "Trenčín"
   #Hungary Croatia Rebel
   HUN_cro_rebel:0 "Supporting Croatian Rebel"
-  HUN_cro_rebel_desc:0 "§R[?HUN.HUN_total_equpment_help]§!"
+  HUN_cro_rebel_desc_tt_not_succesful:0 "This is the amount of equipment, which we used to send our Slavic Brothers: §R[?HUN.HUN_total_equpment_help]§!. The current state of uprising is §Rnot succesful§!"
+  HUN_cro_rebel_desc_tt_only_cro:0 "This is the amount of equipment, which we used to send our Slavic Brothers: §Y[?HUN.HUN_total_equpment_help]§!. The current state of uprising is §Ypartly succesful§!"
+  HUN_cro_rebel_desc_tt_succesful:0 "This is the amount of equipment, which we used to send our Slavic Brothers: §G[?HUN.HUN_total_equpment_help]§!. The current state of uprising is §Gfully succesful§!"
+  HUN_cro_ignite_rebel:0 "Ignite Rebellion!"
+  HUN_cro_ignite_rebel_desc:0 "Depending on amount of equipment, power of revolt will differ"
   #Core Poland
   SOV_core_POL:0 "Nationalize Polish Lands"
   SOV_core_polish_lands_89:0 "Core Stanisławów"
@@ -79,6 +83,16 @@
   finnish_dem_repubic.1.d:0 "After Capturing Helsinki, there is a question our capital to Helsinki as a historical Finnish capital"
   finnish_dem_repubic.1.a:0 "Change!"
   finnish_dem_repubic.1.b:0 "Leave as it was"
+  yugrev.1.t:0 "Rebels are Succesful"
+  yugrev.1.d:0 "Hungarians made a lot to make rebellion succesful"
+  yugrev.1.a:0 "We have nothing to do with it, War."
+  yugrev.1.t:0 "Surrender"
+  yugrev.1.d:0 "We have lost too much land, we must offer peace to Hungary"
+  yugrev.1.a:0 "Yes."
+  yugrev.1.b:0 "Never Give Up!"
+  #Focuses
+  HUN_help_cro_rebel:0 "Help our brothers!"
+  HUN_help_cro_rebel_desc:0 "Enables Decisions to make revolt in Croatia and Slovenia"
   #Ideas
   BHM_helping_ger:0 "Helping Germany"
   BHM_investitions_from_ger:0 "Investitions from Third Reich"

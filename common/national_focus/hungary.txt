@@ -2208,7 +2208,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_help_cro_rebel
-		icon = GFX_focus_proclaim_the_restauration_of_Austria_Hungary
+		icon = GFX_focus_YUG_banovina_of_croatia
 		prerequisite = { focus = HUN_demand_the_vojvodina }
 		x = 0
 		y = 3
