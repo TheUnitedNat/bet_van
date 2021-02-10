@@ -1,0 +1,317 @@
+﻿###########################
+# Yugoslavia Revolt Events
+###########################
+
+add_namespace = yugrev
+
+# Rebel Succeed 
+country_event = {
+	id = yugrev.1
+	title = yugrev.1.t
+	desc = yugrev.1.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = { # Accept demands
+		name = yugrev.1.a
+		ai_chance = { 
+			factor = 25
+		}
+		if = {
+			limit = {
+				HUN = {
+					AND = {
+						check_variable = { HUN_total_equpment_help > 4499 }
+						check_variable = { HUN_total_equpment_help < 7499 }
+					}
+				}
+			}
+			release = CRO
+			release = DLM
+			CRO = {
+					division_template = {
+						name = "Croatian Rebels"
+						priority = 1
+						division_names_group = YUG_INF_01
+						regiments = {
+							infantry = { x = 0 y = 0 }
+							infantry = { x = 0 y = 1 }
+							infantry = { x = 0 y = 2 }
+				
+							infantry = { x = 1 y = 0 }
+							infantry = { x = 1 y = 1 }
+							infantry = { x = 1 y = 2 }
+						}
+						support = {
+						}
+					}
+					random_owned_controlled_state = {
+						limit = { PREV = { has_full_control_of_state = PREV } }
+						create_unit = {
+							division = "name = \"Croatian Division\" division_template = \"Croatian Rebels\" start_experience_factor = 0.9" 
+							owner = PREV
+						}
+					}
+					random_owned_controlled_state = {
+						limit = { PREV = { has_full_control_of_state = PREV } }
+						create_unit = {
+							division = "name = \"Croatian Division\" division_template = \"Croatian Rebels\" start_experience_factor = 0.9" 
+							owner = PREV
+						}
+					}
+					random_owned_controlled_state = {
+						limit = { PREV = { has_full_control_of_state = PREV } }
+						create_unit = {
+							division = "name = \"Croatian Division\" division_template = \"Croatian Rebels\" start_experience_factor = 0.9" 
+							owner = PREV
+						}
+					}
+					random_owned_controlled_state = {
+						limit = { PREV = { has_full_control_of_state = PREV } }
+						create_unit = {
+							division = "name = \"Croatian Division\" division_template = \"Croatian Rebels\" start_experience_factor = 0.9" 
+							owner = PREV
+						}
+					}
+			}
+			DLM = {
+					division_template = {
+						name = "Dalmatian Rebels"
+						priority = 1
+						division_names_group = YUG_INF_01
+						regiments = {
+							infantry = { x = 0 y = 0 }
+							infantry = { x = 0 y = 1 }
+							infantry = { x = 0 y = 2 }
+				
+							infantry = { x = 1 y = 0 }
+							infantry = { x = 1 y = 1 }
+							infantry = { x = 1 y = 2 }
+						}
+						support = {
+						}
+					}
+					random_owned_controlled_state = {
+						limit = { PREV = { has_full_control_of_state = PREV } }
+						create_unit = {
+							division = "name = \"Dalmatian Division\" division_template = \"Dalmatian Rebels\" start_experience_factor = 0.9" 
+							owner = PREV
+						}
+					}
+				}
+			HUN = {
+				puppet = CRO
+				puppet = DLM
+			}
+			YUG = { transfer_state = 810 }
+			YUG = { transfer_state = 103 }
+			YUG = {
+				create_wargoal = {
+					type = take_state_focus
+					target = HUN
+					generator = { 109 811 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				HUN = {
+					check_variable = { HUN_total_equpment_help > 7499 }
+				}
+			}
+			release = DLM 
+			release = CRO 
+			release = SLV
+			CRO = {
+					division_template = {
+						name = "Croatian Rebels"
+						priority = 1
+						division_names_group = YUG_INF_01
+						regiments = {
+							infantry = { x = 0 y = 0 }
+							infantry = { x = 0 y = 1 }
+							infantry = { x = 0 y = 2 }
+				
+							infantry = { x = 1 y = 0 }
+							infantry = { x = 1 y = 1 }
+							infantry = { x = 1 y = 2 }
+						}
+						support = {
+						}
+					}
+					random_owned_controlled_state = {
+						limit = { PREV = { has_full_control_of_state = PREV } }
+						create_unit = {
+							division = "name = \"Croatian Division\" division_template = \"Croatian Rebels\" start_experience_factor = 0.9" 
+							owner = PREV
+						}
+					}
+					random_owned_controlled_state = {
+						limit = { PREV = { has_full_control_of_state = PREV } }
+						create_unit = {
+							division = "name = \"Croatian Division\" division_template = \"Croatian Rebels\" start_experience_factor = 0.9" 
+							owner = PREV
+						}
+					}
+					random_owned_controlled_state = {
+						limit = { PREV = { has_full_control_of_state = PREV } }
+						create_unit = {
+							division = "name = \"Croatian Division\" division_template = \"Croatian Rebels\" start_experience_factor = 0.9" 
+							owner = PREV
+						}
+					}
+					random_owned_controlled_state = {
+						limit = { PREV = { has_full_control_of_state = PREV } }
+						create_unit = {
+							division = "name = \"Croatian Division\" division_template = \"Croatian Rebels\" start_experience_factor = 0.9" 
+							owner = PREV
+						}
+					}
+				}
+			DLM = {
+					division_template = {
+						name = "Dalmatian Rebels"
+						priority = 1
+						division_names_group = YUG_INF_01
+						regiments = {
+							infantry = { x = 0 y = 0 }
+							infantry = { x = 0 y = 1 }
+							infantry = { x = 0 y = 2 }
+				
+							infantry = { x = 1 y = 0 }
+							infantry = { x = 1 y = 1 }
+							infantry = { x = 1 y = 2 }
+						}
+						support = {
+						}
+					}
+					random_owned_controlled_state = {
+						limit = { PREV = { has_full_control_of_state = PREV } }
+						create_unit = {
+							division = "name = \"Dalmatian Division\" division_template = \"Dalmatian Rebels\" start_experience_factor = 0.9" 
+							owner = PREV
+						}
+					}
+					random_owned_controlled_state = {
+						limit = { PREV = { has_full_control_of_state = PREV } }
+						create_unit = {
+							division = "name = \"Dalmatian Division\" division_template = \"Dalmatian Rebels\" start_experience_factor = 0.9" 
+							owner = PREV
+						}
+					}
+				}
+			SLV = {
+					division_template = {
+						name = "Slovenian Rebels"
+						priority = 1
+						division_names_group = YUG_INF_01
+						regiments = {
+							infantry = { x = 0 y = 0 }
+							infantry = { x = 0 y = 1 }
+							infantry = { x = 0 y = 2 }
+				
+							infantry = { x = 1 y = 0 }
+							infantry = { x = 1 y = 1 }
+							infantry = { x = 1 y = 2 }
+						}
+						support = {
+						}
+					}
+					random_owned_controlled_state = {
+						limit = { PREV = { has_full_control_of_state = PREV } }
+						create_unit = {
+							division = "name = \"Slovenian Division\" division_template = \"Slovenian Rebels\" start_experience_factor = 0.9" 
+							owner = PREV
+						}
+					}
+					random_owned_controlled_state = {
+						limit = { PREV = { has_full_control_of_state = PREV } }
+						create_unit = {
+							division = "name = \"Slovenian Division\" division_template = \"Slovenian Rebels\" start_experience_factor = 0.9" 
+							owner = PREV
+						}
+					}
+				}
+			HUN = {
+				puppet = DLM
+				puppet = CRO
+				puppet = SLV
+			}
+			YUG = { transfer_state = 810 }
+			YUG = {
+				create_wargoal = {
+					type = take_state_focus
+					target = HUN
+					generator = { 102 103 109 811 812 }
+				}
+			}
+		}
+	}
+}
+
+# Sign Peace
+country_event = {
+	id = yugrev.2
+	title = yugrev.2.t
+	desc = yugrev.2.d
+	picture = GFX_report_event_german_troops
+	fire_only_once = yes
+	trigger = {
+		tag = YUG
+		surrender_progress > 0.25
+	}
+	option = { # Accept demands
+		name = yugrev.2.a
+		ai_chance = { 
+			factor = 95
+		}
+		HUN = { country_event = yugrev.3 }
+		HUN = { transfer_state = 764 }
+		YUG = { 
+			white_peace = {
+				tag = HUN
+			} 
+		}
+	}
+	option = { # Never Give Up!
+		name = yugrev.2.b
+		ai_chance = { 
+			factor = 5
+		}
+	}
+}
+country_event = {
+	id = yugrev.3
+	title = yugrev.3.t
+	desc = yugrev.3.d
+	picture = GFX_report_event_german_troops
+	is_triggered_only = yes
+	option = { # Great Hungary
+		name = yugrev.3.a
+		ai_chance = { 
+			factor = 25
+		}
+		annex_country = {
+			target = CRO
+			transfer_troops = yes
+		}
+		HUN = { transfer_state = 811 transfer_state = 812 }
+		HUN = {
+			every_state = {
+				limit = {
+					NOT = { is_core_of = HUN }
+				}
+				add_core_of = HUN
+			}
+		}
+		add_stability = -0.1
+	}
+	option = { # Nah
+		name = yugrev.3.b
+		ai_chance = { 
+			factor = 25
+		}
+		add_stability = 0.15
+	}
+}
